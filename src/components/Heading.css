@@ -1,0 +1,44 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    height: 25%;
+    width:80%;
+    /* text-shadow:2px 2px 7px black ; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    bottom: 32%;
+    z-index: 1;
+    animation: text-animate 10s linear infinite,
+               scale-animate 3s linear 1  ; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);       
+}
+
+@keyframes text-animate{
+    0%,100%{
+        text-shadow:2px 2px 10px rgb(51, 248, 173) ;
+    }
+    33%{
+        text-shadow:2px 2px 10px rgb(163, 70, 255);  
+    }
+    67%{
+        text-shadow:2px 2px 10px rgb(65, 223, 248);  
+    }
+} 
+@keyframes scale-animate{
+    from{
+        scale:0.9;
+        opacity:0.5 ;
+        color: rgb(212, 212, 212);
+    }
+    to{
+        scale:1;
+        opacity:1;
+        color: rgb(255, 255, 255);
+    
+    }
+}
