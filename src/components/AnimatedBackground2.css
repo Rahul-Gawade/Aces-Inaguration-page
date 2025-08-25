@@ -77,7 +77,7 @@ body {
 
 body {
   font-family: 'Exo', sans-serif;
-  background: #060714; /* dark background for glow */
+  background: #060714; 
   overflow: hidden;
 }
 
@@ -104,7 +104,6 @@ body {
   animation: animate linear infinite;
 }
 
-/* 🌈 Different glowing colors */
 .circles li:nth-child(1)  { background: #ff4d6d; box-shadow: 0 0 15px #ff4d6d; left: 90%; animation-delay: 0s;  animation-duration: 12s; }
 .circles li:nth-child(2)  { background: #4dd0ff; box-shadow: 0 0 15px #4dd0ff; left: 82%; animation-delay: 2s;  animation-duration: 18s; }
 .circles li:nth-child(3)  { background: #4dff88; box-shadow: 0 0 15px #4dff88; left: 73%; animation-delay: 4s;  animation-duration: 20s; }
