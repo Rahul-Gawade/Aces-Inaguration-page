@@ -1,5 +1,5 @@
 import React from "react";
-import "./AnimatedBackground2.css"; // Import the CSS
+import "./AnimatedBackground2.css"; 
 
 export default function AnimatedBackground() {
   return (
